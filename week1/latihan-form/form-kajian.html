@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran Kajian</title>
+</head>
+<body>
+    <h1>Formulir Pendaftaran Kajian</h1>
+    <form>
+        <label for="nama">Nama Lengkap : </label>
+        <input type="text" name="nama" id="nama" required> <br><br>
+
+        <label for="email">Email Aktif :</label>
+        <input type="email" name="email" id="email" required><br><br>
+
+        <label for="phone">Nomor HP :</label>
+        <input type="number" name="phone" id="phone"  required><br><br>
+        
+        <label>Jenis Kelamin :</label><br>
+        <input type="radio" name="gender" id="ikhwan">
+        <label for="ikhwan">Ikhwan</label><br>
+        <input type="radio" name="gender" id="akhwat">
+        <label for="akhwat">Akhwat</label><br><br>
+
+        <label for="kajian">Pilih Kajian :</label><br>
+
+        <select name="kajian" id="kajian" required>
+            <option value="tafsir">Tafsir</option>
+            <option value="fiqih">Fiqih</option>   <option value="hadist">Hadist</option>
+        </select><br><br>
+        <label for="pesan">Pesan atau pertanyaan :</label><br>
+        <textarea name="pesan" id="pesan"></textarea><br><br>
+
+        <button type="submit">Kirim</button>
+    </form>
+
+    <br><br><br>
+    <hr>
+    <footer>
+        <p>© Muhammad Rafli Tawil</p>
+    </footer>
+</body>
+</html>
